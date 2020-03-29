@@ -35,12 +35,14 @@ class _NavBarItemState extends State<NavBarItem>{
         ),
         Container(
           alignment: Alignment.center,
-          width: 100,
+          width: 125,
           height: 50,
           child: Text(
             "${widget.name}",
+            textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize:25,
+              fontSize:15,
+              fontWeight: FontWeight.bold,
               color: Colors.white
             ),
           ),

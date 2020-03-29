@@ -15,10 +15,10 @@ Widget build(BuildContext context) {
       width: MediaQuery.of(context).size.width,
       height: 80,
       decoration: const BoxDecoration(
-          color: Colors.blue
+          //color: Colors.blue
       ),
       child:Padding(
-        padding: EdgeInsets.symmetric(horizontal: 115),
+        padding: EdgeInsets.symmetric(horizontal: 250),
         child:Row(
           children: <Widget>[
             NavBarItem(
@@ -26,7 +26,19 @@ Widget build(BuildContext context) {
             ),
             Spacer(),
             NavBarItem(
-              name: "name",
+              name: "HOME",
+            ),
+            NavBarItem(
+              name: "ABOUT US",
+            ),
+            NavBarItem(
+              name: "PORTFOLIO",
+            ),
+            NavBarItem(
+              name: "NEWS",
+            ),
+            NavBarItem(
+              name: "CONTACTS",
             )
           ],
         ),
